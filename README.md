@@ -153,4 +153,4 @@ remain under their owners' terms.
 
 ## Contact
 
-Kaylan Gokal, 2724001@students.wits.ac.za
+Kaylan Gokal, 2724001@students.wits.ac.za, kaylangokal@gmail.com
