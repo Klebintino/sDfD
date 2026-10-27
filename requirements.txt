@@ -1,0 +1,19 @@
+# Python 3.13
+
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+xgboost==3.4.1
+shap==0.52.0
+gensim==4.4.0
+openpyxl==3.1.5
+pyarrow==25.0.1
+matplotlib==3.11.1
+
+# snafu must be installed from GitHub (the PyPI package "snafu" is unrelated)
+pysnafu @ git+https://github.com/AusterweilLab/snafu-py.git
+
+# only needed for scripts/11_build_gpt2_cache.py
+torch==2.14.0
+transformers==5.17.0

@@ -1,0 +1,12 @@
+,ridge,random_forest,bayesian_ridge,xgboost
+list_length,1,1,1,1
+length_diff,2,6,2,5
+n_repeats,6,4,5,3
+n_intrusions,11,11,11,11
+dfd,4,5,7,6
+cluster_size,8,9,8,9
+n_switches,7,10,4,10
+sem_dist_mean,10,8,10,8
+sem_dist_sd,9,7,9,7
+sdfd,5,3,6,4
+sdfd_1to1,3,2,3,2

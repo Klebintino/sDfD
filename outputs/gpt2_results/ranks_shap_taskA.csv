@@ -1,0 +1,12 @@
+feature,logistic,random_forest,naive_bayes,xgboost
+list_length,1.0,1.0,2.0,1.0
+length_diff,2.0,10.0,10.0,8.0
+n_repeats,3.0,4.0,6.0,4.0
+n_intrusions,11.0,11.0,11.0,11.0
+dfd,4.0,5.0,4.0,9.0
+cluster_size,5.0,6.0,7.0,6.0
+n_switches,8.0,7.0,5.0,10.0
+sem_dist_mean,10.0,8.0,8.0,5.0
+sem_dist_sd,6.0,9.0,9.0,7.0
+sdfd,9.0,3.0,3.0,2.0
+sdfd_1to1,7.0,2.0,1.0,3.0

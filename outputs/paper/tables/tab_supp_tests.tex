@@ -1,0 +1,108 @@
+\begin{longtable}{lllcccccc}
+\caption{All model comparisons on pooled out-of-fold predictions. CI: subject-level bootstrap (2{,}000 resamples). Perm.~$p$: subject-level paired permutation test (5{,}000 permutations). Holm: corrected across the 12 task $\times$ family cells of each comparison. DeLong $p$ treats visit pairs as independent and applies to AUC only.}\label{tab:supp_tests}\\
+\toprule
+Task & Family & Comparison & Diff. & 95\% CI & Perm.~$p$ & Holm $p$ & DeLong $p$ \\
+\midrule
+\endfirsthead
+\toprule
+Task & Family & Comparison & Diff. & 95\% CI & Perm.~$p$ & Holm $p$ & DeLong $p$ \\
+\midrule
+\endhead
+A & Logistic & sDfD 1:1 $-$ DfD & +0.061 & [+0.038, +0.085] & 0.0002 & 0.0024 & 0.0000 \\
+A & Logistic & sDfD m:1 $-$ DfD & +0.047 & [+0.020, +0.075] & 0.0006 & 0.0054 & 0.0000 \\
+A & Logistic & sDfD 1:1 $-$ sDfD m:1 & +0.014 & [+0.003, +0.026] & 0.0186 & 0.1780 & 0.0108 \\
+A & Logistic & Length $-$ sDfD 1:1 & +0.012 & [$-$0.004, +0.030] & 0.1410 & 0.1410 & 0.2022 \\
+A & Logistic & Length $-$ DfD & +0.074 & [+0.040, +0.108] & 0.0002 & 0.0024 & 0.0000 \\
+A & Logistic & Base.+DfD $-$ Baseline & +0.001 & [$-$0.003, +0.005] & 0.6885 & 1.0000 & 0.5787 \\
+A & Logistic & Base.+m:1 $-$ Baseline & $-$0.001 & [$-$0.003, +0.002] & 0.6249 & 1.0000 & 0.6120 \\
+A & Logistic & Base.+1:1 $-$ Baseline & +0.000 & [$-$0.003, +0.004] & 0.8638 & 1.0000 & 0.8290 \\
+A & Random forest & sDfD 1:1 $-$ DfD & +0.026 & [$-$0.004, +0.054] & 0.0876 & 0.1752 & 0.0429 \\
+A & Random forest & sDfD m:1 $-$ DfD & +0.036 & [+0.001, +0.070] & 0.0526 & 0.1578 & 0.0160 \\
+A & Random forest & sDfD 1:1 $-$ sDfD m:1 & $-$0.010 & [$-$0.037, +0.018] & 0.5067 & 1.0000 & 0.4520 \\
+A & Random forest & Length $-$ sDfD 1:1 & +0.062 & [+0.037, +0.091] & 0.0002 & 0.0024 & 0.0000 \\
+A & Random forest & Length $-$ DfD & +0.089 & [+0.052, +0.126] & 0.0002 & 0.0024 & 0.0000 \\
+A & Random forest & Base.+DfD $-$ Baseline & $-$0.005 & [$-$0.012, +0.002] & 0.1744 & 1.0000 & 0.1641 \\
+A & Random forest & Base.+m:1 $-$ Baseline & $-$0.002 & [$-$0.009, +0.005] & 0.6683 & 1.0000 & 0.6440 \\
+A & Random forest & Base.+1:1 $-$ Baseline & $-$0.001 & [$-$0.008, +0.007] & 0.8518 & 1.0000 & 0.8535 \\
+A & Naive Bayes & sDfD 1:1 $-$ DfD & +0.069 & [+0.042, +0.098] & 0.0002 & 0.0024 & 0.0000 \\
+A & Naive Bayes & sDfD m:1 $-$ DfD & +0.057 & [+0.025, +0.088] & 0.0004 & 0.0040 & 0.0000 \\
+A & Naive Bayes & sDfD 1:1 $-$ sDfD m:1 & +0.012 & [+0.000, +0.026] & 0.0610 & 0.4269 & 0.0357 \\
+A & Naive Bayes & Length $-$ sDfD 1:1 & +0.020 & [+0.001, +0.040] & 0.0292 & 0.0584 & 0.0434 \\
+A & Naive Bayes & Length $-$ DfD & +0.089 & [+0.051, +0.127] & 0.0002 & 0.0024 & 0.0000 \\
+A & Naive Bayes & Base.+DfD $-$ Baseline & +0.007 & [$-$0.003, +0.017] & 0.1500 & 1.0000 & 0.1300 \\
+A & Naive Bayes & Base.+m:1 $-$ Baseline & +0.012 & [+0.005, +0.020] & 0.0028 & 0.0336 & 0.0053 \\
+A & Naive Bayes & Base.+1:1 $-$ Baseline & +0.013 & [+0.005, +0.022] & 0.0032 & 0.0384 & 0.0034 \\
+A & XGBoost & sDfD 1:1 $-$ DfD & +0.053 & [+0.026, +0.080] & 0.0004 & 0.0024 & 0.0000 \\
+A & XGBoost & sDfD m:1 $-$ DfD & +0.046 & [+0.014, +0.078] & 0.0050 & 0.0266 & 0.0004 \\
+A & XGBoost & sDfD 1:1 $-$ sDfD m:1 & +0.007 & [$-$0.012, +0.025] & 0.4757 & 1.0000 & 0.4629 \\
+A & XGBoost & Length $-$ sDfD 1:1 & +0.034 & [+0.011, +0.059] & 0.0032 & 0.0096 & 0.0041 \\
+A & XGBoost & Length $-$ DfD & +0.086 & [+0.050, +0.123] & 0.0002 & 0.0024 & 0.0000 \\
+A & XGBoost & Base.+DfD $-$ Baseline & $-$0.004 & [$-$0.010, +0.002] & 0.1550 & 1.0000 & 0.1548 \\
+A & XGBoost & Base.+m:1 $-$ Baseline & $-$0.004 & [$-$0.013, +0.004] & 0.3815 & 1.0000 & 0.3153 \\
+A & XGBoost & Base.+1:1 $-$ Baseline & $-$0.005 & [$-$0.013, +0.003] & 0.2116 & 1.0000 & 0.1978 \\
+B1 & Ridge & sDfD 1:1 $-$ DfD & +0.069 & [+0.041, +0.093] & 0.0002 & 0.0024 & -- \\
+B1 & Ridge & sDfD m:1 $-$ DfD & +0.049 & [+0.019, +0.076] & 0.0038 & 0.0266 & -- \\
+B1 & Ridge & sDfD 1:1 $-$ sDfD m:1 & +0.020 & [+0.004, +0.038] & 0.0180 & 0.1780 & -- \\
+B1 & Ridge & Length $-$ sDfD 1:1 & +0.117 & [+0.084, +0.147] & 0.0002 & 0.0024 & -- \\
+B1 & Ridge & Length $-$ DfD & +0.187 & [+0.135, +0.231] & 0.0002 & 0.0024 & -- \\
+B1 & Ridge & Base.+DfD $-$ Baseline & +0.002 & [$-$0.003, +0.006] & 0.4259 & 1.0000 & -- \\
+B1 & Ridge & Base.+m:1 $-$ Baseline & +0.010 & [+0.001, +0.018] & 0.0418 & 0.3343 & -- \\
+B1 & Ridge & Base.+1:1 $-$ Baseline & +0.009 & [$-$0.001, +0.019] & 0.0806 & 0.6447 & -- \\
+B1 & Random forest & sDfD 1:1 $-$ DfD & +0.039 & [$-$0.045, +0.115] & 0.3349 & 0.3349 & -- \\
+B1 & Random forest & sDfD m:1 $-$ DfD & +0.004 & [$-$0.077, +0.081] & 0.9178 & 0.9178 & -- \\
+B1 & Random forest & sDfD 1:1 $-$ sDfD m:1 & +0.035 & [$-$0.047, +0.110] & 0.3869 & 1.0000 & -- \\
+B1 & Random forest & Length $-$ sDfD 1:1 & +0.190 & [+0.125, +0.269] & 0.0002 & 0.0024 & -- \\
+B1 & Random forest & Length $-$ DfD & +0.229 & [+0.154, +0.307] & 0.0002 & 0.0024 & -- \\
+B1 & Random forest & Base.+DfD $-$ Baseline & +0.007 & [$-$0.009, +0.023] & 0.3725 & 1.0000 & -- \\
+B1 & Random forest & Base.+m:1 $-$ Baseline & $-$0.006 & [$-$0.033, +0.021] & 0.6875 & 1.0000 & -- \\
+B1 & Random forest & Base.+1:1 $-$ Baseline & +0.007 & [$-$0.019, +0.035] & 0.6055 & 1.0000 & -- \\
+B1 & Bayesian ridge & sDfD 1:1 $-$ DfD & +0.069 & [+0.041, +0.093] & 0.0002 & 0.0024 & -- \\
+B1 & Bayesian ridge & sDfD m:1 $-$ DfD & +0.049 & [+0.019, +0.076] & 0.0038 & 0.0266 & -- \\
+B1 & Bayesian ridge & sDfD 1:1 $-$ sDfD m:1 & +0.020 & [+0.004, +0.038] & 0.0178 & 0.1780 & -- \\
+B1 & Bayesian ridge & Length $-$ sDfD 1:1 & +0.117 & [+0.084, +0.147] & 0.0002 & 0.0024 & -- \\
+B1 & Bayesian ridge & Length $-$ DfD & +0.187 & [+0.135, +0.231] & 0.0002 & 0.0024 & -- \\
+B1 & Bayesian ridge & Base.+DfD $-$ Baseline & +0.002 & [$-$0.002, +0.005] & 0.3363 & 1.0000 & -- \\
+B1 & Bayesian ridge & Base.+m:1 $-$ Baseline & +0.009 & [+0.002, +0.016] & 0.0250 & 0.2250 & -- \\
+B1 & Bayesian ridge & Base.+1:1 $-$ Baseline & +0.009 & [+0.000, +0.017] & 0.0588 & 0.5291 & -- \\
+B1 & XGBoost & sDfD 1:1 $-$ DfD & +0.098 & [+0.024, +0.169] & 0.0116 & 0.0464 & -- \\
+B1 & XGBoost & sDfD m:1 $-$ DfD & +0.098 & [+0.034, +0.166] & 0.0046 & 0.0266 & -- \\
+B1 & XGBoost & sDfD 1:1 $-$ sDfD m:1 & +0.001 & [$-$0.067, +0.060] & 0.9800 & 1.0000 & -- \\
+B1 & XGBoost & Length $-$ sDfD 1:1 & +0.123 & [+0.062, +0.195] & 0.0004 & 0.0024 & -- \\
+B1 & XGBoost & Length $-$ DfD & +0.222 & [+0.147, +0.300] & 0.0002 & 0.0024 & -- \\
+B1 & XGBoost & Base.+DfD $-$ Baseline & $-$0.021 & [$-$0.041, $-$0.001] & 0.0354 & 0.4247 & -- \\
+B1 & XGBoost & Base.+m:1 $-$ Baseline & $-$0.013 & [$-$0.041, +0.015] & 0.3551 & 1.0000 & -- \\
+B1 & XGBoost & Base.+1:1 $-$ Baseline & +0.007 & [$-$0.018, +0.032] & 0.5895 & 1.0000 & -- \\
+B2 & Ridge & sDfD 1:1 $-$ DfD & +0.096 & [+0.066, +0.124] & 0.0002 & 0.0024 & -- \\
+B2 & Ridge & sDfD m:1 $-$ DfD & +0.072 & [+0.044, +0.099] & 0.0002 & 0.0024 & -- \\
+B2 & Ridge & sDfD 1:1 $-$ sDfD m:1 & +0.024 & [+0.006, +0.043] & 0.0126 & 0.1488 & -- \\
+B2 & Ridge & Length $-$ sDfD 1:1 & +0.136 & [+0.103, +0.166] & 0.0002 & 0.0024 & -- \\
+B2 & Ridge & Length $-$ DfD & +0.232 & [+0.187, +0.275] & 0.0002 & 0.0024 & -- \\
+B2 & Ridge & Base.+DfD $-$ Baseline & +0.003 & [$-$0.002, +0.007] & 0.2296 & 1.0000 & -- \\
+B2 & Ridge & Base.+m:1 $-$ Baseline & +0.011 & [+0.002, +0.018] & 0.0126 & 0.1260 & -- \\
+B2 & Ridge & Base.+1:1 $-$ Baseline & +0.010 & [+0.001, +0.018] & 0.0356 & 0.3559 & -- \\
+B2 & Random forest & sDfD 1:1 $-$ DfD & +0.081 & [+0.002, +0.154] & 0.0460 & 0.1380 & -- \\
+B2 & Random forest & sDfD m:1 $-$ DfD & +0.074 & [$-$0.006, +0.153] & 0.0840 & 0.1680 & -- \\
+B2 & Random forest & sDfD 1:1 $-$ sDfD m:1 & +0.007 & [$-$0.065, +0.079] & 0.8482 & 1.0000 & -- \\
+B2 & Random forest & Length $-$ sDfD 1:1 & +0.205 & [+0.137, +0.281] & 0.0002 & 0.0024 & -- \\
+B2 & Random forest & Length $-$ DfD & +0.285 & [+0.210, +0.366] & 0.0002 & 0.0024 & -- \\
+B2 & Random forest & Base.+DfD $-$ Baseline & +0.004 & [$-$0.006, +0.015] & 0.4357 & 1.0000 & -- \\
+B2 & Random forest & Base.+m:1 $-$ Baseline & +0.005 & [$-$0.011, +0.023] & 0.5699 & 1.0000 & -- \\
+B2 & Random forest & Base.+1:1 $-$ Baseline & +0.019 & [$-$0.002, +0.047] & 0.1018 & 0.7125 & -- \\
+B2 & Bayesian ridge & sDfD 1:1 $-$ DfD & +0.096 & [+0.067, +0.124] & 0.0002 & 0.0024 & -- \\
+B2 & Bayesian ridge & sDfD m:1 $-$ DfD & +0.072 & [+0.044, +0.099] & 0.0002 & 0.0024 & -- \\
+B2 & Bayesian ridge & sDfD 1:1 $-$ sDfD m:1 & +0.024 & [+0.006, +0.043] & 0.0124 & 0.1488 & -- \\
+B2 & Bayesian ridge & Length $-$ sDfD 1:1 & +0.136 & [+0.103, +0.166] & 0.0002 & 0.0024 & -- \\
+B2 & Bayesian ridge & Length $-$ DfD & +0.232 & [+0.188, +0.275] & 0.0002 & 0.0024 & -- \\
+B2 & Bayesian ridge & Base.+DfD $-$ Baseline & +0.003 & [$-$0.001, +0.007] & 0.1666 & 1.0000 & -- \\
+B2 & Bayesian ridge & Base.+m:1 $-$ Baseline & +0.010 & [+0.003, +0.017] & 0.0074 & 0.0814 & -- \\
+B2 & Bayesian ridge & Base.+1:1 $-$ Baseline & +0.010 & [+0.002, +0.017] & 0.0214 & 0.2354 & -- \\
+B2 & XGBoost & sDfD 1:1 $-$ DfD & +0.156 & [+0.092, +0.219] & 0.0002 & 0.0024 & -- \\
+B2 & XGBoost & sDfD m:1 $-$ DfD & +0.109 & [+0.041, +0.179] & 0.0030 & 0.0240 & -- \\
+B2 & XGBoost & sDfD 1:1 $-$ sDfD m:1 & +0.047 & [$-$0.009, +0.106] & 0.1082 & 0.6491 & -- \\
+B2 & XGBoost & Length $-$ sDfD 1:1 & +0.121 & [+0.056, +0.186] & 0.0004 & 0.0024 & -- \\
+B2 & XGBoost & Length $-$ DfD & +0.277 & [+0.203, +0.356] & 0.0002 & 0.0024 & -- \\
+B2 & XGBoost & Base.+DfD $-$ Baseline & $-$0.009 & [$-$0.026, +0.009] & 0.3091 & 1.0000 & -- \\
+B2 & XGBoost & Base.+m:1 $-$ Baseline & +0.002 & [$-$0.019, +0.025] & 0.8480 & 1.0000 & -- \\
+B2 & XGBoost & Base.+1:1 $-$ Baseline & $-$0.003 & [$-$0.032, +0.028] & 0.8574 & 1.0000 & -- \\
+\bottomrule
+\end{longtable}
